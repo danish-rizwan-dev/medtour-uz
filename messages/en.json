@@ -1,0 +1,450 @@
+{
+  "Metadata": {
+    "title": "MedTour Uzbekistan | Medical Treatment in India for Patients from Uzbekistan",
+    "description": "Medical treatment in India for patients from Uzbekistan: cardiology, oncology, orthopaedics, urology and neurosurgery. Free second opinion, visa support and coordination in Russian and Uzbek.",
+    "keywords": "treatment in India, medical tourism India Uzbekistan, surgery India cost, cardiology India, oncology India, Hindistonda davolanish"
+  },
+  "Navbar": {
+    "home": "Home",
+    "treatments": "Treatments",
+    "hospitals": "Hospitals",
+    "howItWorks": "How It Works",
+    "consultation": "Consultation",
+    "cta": "Free Consultation",
+    "menu": "Menu",
+    "closeMenu": "Close menu"
+  },
+  "Hero": {
+    "badge": "Medical Tourism • Uzbekistan → India",
+    "title": "Treatment in India",
+    "titleHighlight": "for patients from Uzbekistan",
+    "subtitle": "We match you with leading Indian hospitals and handle the second opinion, visa, flights and coordination in Russian and Uzbek — from first consultation to your return home.",
+    "ctaPrimary": "Free consultation",
+    "ctaWhatsApp": "Chat on WhatsApp",
+    "trust1": "JCI & NABH hospitals",
+    "trust2": "Russian & Uzbek coordination",
+    "trust3": "Free second opinion",
+    "stat1Value": "60–80%",
+    "stat1Label": "savings vs European prices",
+    "stat2Value": "24–72 h",
+    "stat2Label": "treatment plan from doctors",
+    "stat3Value": "5",
+    "stat3Label": "core specialties",
+    "stat4Value": "24/7",
+    "stat4Label": "patient support"
+  },
+  "Specialties": {
+    "title": "Treatment specialties",
+    "subtitle": "We work with the strongest specialties of Indian medicine — fields where India is a recognised world leader in quality and price.",
+    "cardiology": {
+      "name": "Cardiology",
+      "desc": "Bypass surgery, angioplasty and heart defect treatment in internationally accredited hospitals."
+    },
+    "oncology": {
+      "name": "Oncology",
+      "desc": "Tumour surgery, chemotherapy, radiation therapy and comprehensive cancer care following international protocols."
+    },
+    "orthopedics": {
+      "name": "Orthopaedics",
+      "desc": "Knee and hip replacement, spine surgery, and treatment of injuries and sports damage."
+    },
+    "urology": {
+      "name": "Urology",
+      "desc": "Kidney stone treatment, prostate surgery, kidney transplantation and urological oncology."
+    },
+    "neurosurgery": {
+      "name": "Neurosurgery",
+      "desc": "Brain and spine surgery, treatment of aneurysms and functional disorders of the nervous system."
+    },
+    "allTreatments": "All treatment areas"
+  },
+  "WhyUs": {
+    "title": "Why patients from Uzbekistan choose us",
+    "subtitle": "We take care of the entire organisation of treatment so you can focus on recovery.",
+    "i1": {
+      "title": "Verified hospitals",
+      "desc": "We work only with accredited hospitals (JCI, NABH) and doctors with international experience."
+    },
+    "i2": {
+      "title": "Transparent pricing",
+      "desc": "You receive a written estimate before travelling — no hidden fees, no surprises."
+    },
+    "i3": {
+      "title": "Russian-speaking coordination",
+      "desc": "A coordinator in Russian and Uzbek at every stage — from documents to discharge."
+    },
+    "i4": {
+      "title": "Visa support",
+      "desc": "We help obtain a hospital invitation and prepare the full medical visa package."
+    },
+    "i5": {
+      "title": "Free second opinion",
+      "desc": "Indian doctors review your documents and provide a written opinion — before any payment or travel."
+    },
+    "i6": {
+      "title": "Care after treatment",
+      "desc": "Follow-up online consultations after you return home to Uzbekistan."
+    },
+    "badge": "Why MedTour"
+  },
+  "Process": {
+    "title": "How treatment works",
+    "subtitle": "A clear six-step journey — from your first message to coming home.",
+    "step1": {
+      "title": "Free consultation",
+      "desc": "Send your diagnosis and medical documents through the form or WhatsApp."
+    },
+    "step2": {
+      "title": "Indian doctors' opinion",
+      "desc": "Within 2–3 days you receive a medical opinion and treatment plan from specialist doctors."
+    },
+    "step3": {
+      "title": "Estimate and hospital choice",
+      "desc": "Compare options and costs, then choose your hospital and doctor."
+    },
+    "step4": {
+      "title": "Visa and documents",
+      "desc": "You receive an invitation from the hospital and help with the medical visa."
+    },
+    "step5": {
+      "title": "Travel and treatment",
+      "desc": "Airport pickup, interpreter at the hospital and accommodation near the clinic."
+    },
+    "step6": {
+      "title": "Discharge and follow-up",
+      "desc": "You return home with a follow-up plan and stay in touch with your doctors."
+    },
+    "allSteps": "More about the process",
+    "zone1": "Gather",
+    "zone2": "Organise",
+    "zone3": "Treat",
+    "badge": "Clinical protocol"
+  },
+  "Doctors": {
+    "title": "World-class surgeons",
+    "subtitle": "Indian surgeons with international reputations and tens of thousands of successful operations.",
+    "trehan": {
+      "facts": "A surgeon with over 40 years of experience and personal surgeon to the President of India since 1991. Recipient of the Padma Shri and Padma Bhushan awards. Chairman of Medanta – The Medicity."
+    },
+    "panda": {
+      "facts": "Has performed around 30,000 successful cardiac surgeries, including over 2,000 redo and 6,000+ high-risk procedures. Recipient of the Padma Bhushan award (2010)."
+    },
+    "note": "Photos and biographies come from public sources. Your treating doctor is assigned after consultation.",
+    "badge": "Leading surgeons"
+  },
+  "HospitalsSection": {
+    "title": "Partner hospitals",
+    "subtitle": "Leading Indian hospitals that treat patients from CIS countries to international standards.",
+    "factEstablished": "Established",
+    "factBeds": "Beds",
+    "factAccreditation": "Accreditation",
+    "apollo": "One of India's largest private hospitals: 695 beds on 15 acres, established in 1995 jointly with the Government of Delhi. Known for cardiology, oncology and transplant services.",
+    "fortis": "A multi-specialty hospital of the Fortis Healthcare network in Sector 62, Noida (Delhi NCR): 400+ beds, 140+ ICU beds and 18 modular operation theatres.",
+    "max": "A hospital in South Delhi with 539 beds, accredited by JCI and NABH. Specialised in complex procedures: oncology, cardiac surgery, neurosurgery and organ transplants.",
+    "aiims": "India's largest public medical centre and one of the country's best: 3,600+ beds, established in 1956. A benchmark for evidence-based medicine and research.",
+    "allHospitals": "All hospitals",
+    "badge": "Partner institutes"
+  },
+  "Testimonials": {
+    "title": "Patient feedback",
+    "subtitle": "Stories of people from Uzbekistan who completed treatment in India with our help.",
+    "t1": {
+      "text": "Sent the documents on Monday — the plan and quote arrived on Wednesday. Everything was arranged quickly, the coordinator was always in touch.",
+      "name": "Rustam A., Tashkent"
+    },
+    "t2": {
+      "text": "The knee operation cost three times less than in Turkey, and the hospital exceeded every expectation. A translator was with me daily.",
+      "name": "Nilufar S., Samarkand"
+    },
+    "t3": {
+      "text": "We came for an oncology consultation and got a second opinion plus a clear plan. Grateful for the support at every step.",
+      "name": "Dmitry K., Namangan"
+    },
+    "note": "Sample reviews — to be replaced with real patient stories.",
+    "badge": "Patient stories"
+  },
+  "FAQ": {
+    "title": "Frequently asked questions",
+    "q1": "Why do people choose treatment in India?",
+    "a1": "India combines high-level medicine — hospitals accredited by JCI and NABH, doctors with international experience — with prices 60–80% lower than Europe, the US and often Turkey. For patients from Uzbekistan, the availability of Russian-speaking support also matters.",
+    "q2": "Do I need a visa for treatment?",
+    "a2": "Yes, citizens of Uzbekistan need an Indian medical visa. We help obtain an invitation from the hospital and prepare the full document package — this usually takes several working days.",
+    "q3": "How much does treatment cost?",
+    "a3": "The cost depends on the diagnosis, the scope of the procedure and the chosen hospital. After reviewing your documents we send a written estimate before travel — you know the price in advance. Indicative price ranges are published on this website.",
+    "q4": "Is support available in Russian and Uzbek?",
+    "a4": "Yes. Your coordinator communicates in Russian and Uzbek, and medical interpretation is provided at hospital appointments and procedures.",
+    "q5": "How quickly can I travel for treatment?",
+    "a5": "Doctors provide an opinion on documents within 2–3 days. With documents ready, travel is usually possible within 1–2 weeks, including visa processing.",
+    "q6": "What happens after I return home?",
+    "a6": "You receive your discharge summary, recommendations and a follow-up plan. We stay in touch: online consultations with your treating doctor are arranged after you return to Uzbekistan.",
+    "badge": "Regulations & questions"
+  },
+  "CTA": {
+    "title": "Find out the cost of your treatment",
+    "subtitle": "Send your documents — receive a free opinion from Indian doctors and a transparent estimate within 24–72 hours.",
+    "button": "Get a free consultation",
+    "whatsapp": "Or message us on WhatsApp",
+    "badge": "Medical expertise",
+    "subtitle2": "Confidential handling of your medical documents."
+  },
+  "TreatmentsPage": {
+    "badge": "Treatment specialties",
+    "title": "Treatment in India: specialties and prices",
+    "subtitle": "Five leading specialties of Indian medicine with indicative prices. The exact cost is confirmed after your diagnosis is reviewed.",
+    "priceNote": "Prices are indicative, in US dollars, and depend on the diagnosis, the scope of the procedure, the hospital and the doctor. A precise estimate is prepared after consultation.",
+    "fromLabel": "from",
+    "popularProcedures": "Popular procedures",
+    "indicativePrices": "Indicative prices (USD)",
+    "requestQuote": "Calculate my cost",
+    "cardiology": {
+      "name": "Cardiology & cardiac surgery",
+      "about": "India is one of the world leaders in cardiac surgery: highly complex procedures are performed in JCI-accredited hospitals at a fraction of European prices. Patients from Uzbekistan have access to everything from angioplasty to bypass surgery and valve replacement.",
+      "procedures": [
+        "Coronary artery bypass grafting (CABG)",
+        "Angioplasty with stenting",
+        "Valve replacement and repair",
+        "Pacemaker and defibrillator implantation",
+        "Congenital heart defects (adults and children)"
+      ],
+      "prices": [
+        {
+          "name": "Bypass surgery (CABG)",
+          "range": "$4,500 – $7,500"
+        },
+        {
+          "name": "Angioplasty with stent",
+          "range": "$3,500 – $5,500"
+        },
+        {
+          "name": "Valve replacement",
+          "range": "$5,500 – $9,000"
+        }
+      ]
+    },
+    "oncology": {
+      "name": "Oncology",
+      "about": "Cancer treatment in India follows international protocols (NCCN) and uses modern equipment: linear accelerators, robotic surgery, targeted and immunotherapy programmes. Leading cancer centres — Tata Memorial, Max, Apollo and Medanta — welcome international patients.",
+      "procedures": [
+        "Tumour surgery of any location",
+        "Chemotherapy (including targeted)",
+        "Radiation therapy (IMRT, VMAT, stereotactic)",
+        "Immunotherapy",
+        "Bone marrow transplant"
+      ],
+      "prices": [
+        {
+          "name": "Chemotherapy cycle",
+          "range": "$500 – $1,500"
+        },
+        {
+          "name": "Radiation therapy course",
+          "range": "$3,000 – $6,000"
+        },
+        {
+          "name": "Tumour removal surgery",
+          "range": "$4,000 – $9,000"
+        }
+      ]
+    },
+    "orthopedics": {
+      "name": "Orthopaedics & traumatology",
+      "about": "Joint replacement and spine surgery in India are performed on modern equipment with implants from leading global manufacturers and rehabilitation following international protocols. This is one of the most requested specialties among patients from Uzbekistan.",
+      "procedures": [
+        "Knee replacement",
+        "Hip replacement",
+        "Spine surgery (hernias, fusion)",
+        "Joint arthroscopy",
+        "Treatment of injury consequences"
+      ],
+      "prices": [
+        {
+          "name": "Knee replacement",
+          "range": "$3,500 – $6,000"
+        },
+        {
+          "name": "Hip replacement",
+          "range": "$4,000 – $7,000"
+        },
+        {
+          "name": "Spine surgery",
+          "range": "$5,000 – $9,000"
+        }
+      ]
+    },
+    "urology": {
+      "name": "Urology",
+      "about": "Indian urology centres specialise in minimally invasive kidney stone treatment (laser, no cuts), prostate surgery, kidney transplantation and urological oncology — at prices significantly below Turkish and Israeli clinics.",
+      "procedures": [
+        "Kidney stone treatment (URS, PCNL, laser)",
+        "Transurethral resection of the prostate (TURP)",
+        "Kidney transplant (family donor)",
+        "Urologic oncology (kidney, bladder, prostate)",
+        "Ureter reconstruction"
+      ],
+      "prices": [
+        {
+          "name": "Stone removal (URS/PCNL)",
+          "range": "$1,800 – $3,500"
+        },
+        {
+          "name": "TURP procedure",
+          "range": "$2,500 – $4,000"
+        },
+        {
+          "name": "Kidney transplant",
+          "range": "$13,000 – $18,000"
+        }
+      ]
+    },
+    "neurosurgery": {
+      "name": "Neurosurgery",
+      "about": "Highly complex neurosurgical procedures — brain tumours, aneurysms, spine pathologies — are performed in Indian neuro-centres equipped to world standards with neuronavigation and intraoperative monitoring.",
+      "procedures": [
+        "Brain tumour removal surgery",
+        "Aneurysm treatment (clipping and coiling)",
+        "Spinal fusion and reconstruction",
+        "Hydrocephalus treatment",
+        "Deep brain stimulation (DBS) for Parkinson's disease"
+      ],
+      "prices": [
+        {
+          "name": "Brain tumour surgery",
+          "range": "$6,000 – $12,000"
+        },
+        {
+          "name": "Spinal fusion",
+          "range": "$6,000 – $10,000"
+        },
+        {
+          "name": "Aneurysm treatment",
+          "range": "$5,000 – $10,000"
+        }
+      ]
+    }
+  },
+  "HospitalsPage": {
+    "badge": "Partner hospitals",
+    "title": "Verified hospitals of India",
+    "subtitle": "We select clinics personally: international accreditations, experience treating patients from CIS countries and surgeons with world-class names.",
+    "factEstablished": "Established",
+    "factBeds": "Beds",
+    "factAccreditation": "Accreditation",
+    "whyTitle": "How we select hospitals",
+    "why1": "International JCI / NABH accreditations — a guarantee of safety and quality standards.",
+    "why2": "Experience treating patients from Uzbekistan and CIS countries, including Russian-speaking support.",
+    "why3": "Transparent written estimates and no hidden fees.",
+    "why4": "Strong doctors in the specialty you need — we match a specific specialist to your diagnosis.",
+    "doctorsTitle": "Surgeons the world trusts",
+    "ctaTitle": "We'll match a hospital to your diagnosis",
+    "ctaText": "Describe your situation — we'll suggest 2–3 suitable clinics with prices within 24–72 hours.",
+    "ctaButton": "Get my shortlist"
+  },
+  "HowItWorksPage": {
+    "badge": "How it works",
+    "title": "Your path to treatment in 6 steps",
+    "subtitle": "Full-cycle support: from your first message in the messenger to follow-up after you return to Uzbekistan.",
+    "step1": {
+      "title": "Free consultation",
+      "desc": "You send medical documents (reports, scans, test results) via the form or WhatsApp. Your coordinator replies in Russian or Uzbek and tells you exactly which documents are needed for your case."
+    },
+    "step2": {
+      "title": "Indian doctors' opinion",
+      "desc": "Your documents are reviewed by a specialist from a leading hospital. Within 2–3 days you receive a medical opinion, recommendations and a treatment plan — this second opinion is free and obligates you to nothing."
+    },
+    "step3": {
+      "title": "Estimate and clinic choice",
+      "desc": "We send a transparent written estimate: treatment, stay, diagnostics. If needed we offer 2–3 hospital options to compare — you choose what suits you."
+    },
+    "step4": {
+      "title": "Visa processing",
+      "desc": "The hospital issues an invitation for a medical visa. We help gather documents and book an appointment — the whole procedure usually takes a few working days."
+    },
+    "step5": {
+      "title": "Arrival and treatment",
+      "desc": "We meet you at Delhi airport, help with accommodation near the clinic and provide an interpreter at appointments and procedures. Your coordinator stays in touch 24/7 throughout treatment."
+    },
+    "step6": {
+      "title": "Discharge and care at home",
+      "desc": "After treatment you receive a discharge summary in Russian, recovery recommendations and doctors' contacts. After returning to Uzbekistan we arrange online follow-up consultations."
+    },
+    "includedTitle": "What support includes",
+    "incl1": "Free second opinion on your documents",
+    "incl2": "Matching a doctor and hospital to your diagnosis",
+    "incl3": "Invitation for a medical visa",
+    "incl4": "Written estimate before travel",
+    "incl5": "Airport pickup and interpretation at the clinic",
+    "incl6": "Online consultations after you return",
+    "ctaTitle": "Start with a free consultation",
+    "ctaText": "The first step is sending your documents. We'll take care of everything else.",
+    "ctaButton": "Send my documents"
+  },
+  "ConsultationPage": {
+    "badge": "Free consultation",
+    "title": "Request a consultation",
+    "subtitle": "Fill in the form or write on WhatsApp — we reply in Russian or Uzbek within one working day.",
+    "formTitle": "Request form",
+    "name": "Your name",
+    "namePlaceholder": "e.g. Aziz",
+    "phone": "Phone / WhatsApp",
+    "phonePlaceholder": "+998 ...",
+    "treatment": "Treatment area",
+    "treatmentPlaceholder": "Choose a specialty",
+    "treatmentUnknown": "I don't know yet — I need advice",
+    "message": "Describe your situation",
+    "messagePlaceholder": "Diagnosis, symptoms, which documents you have...",
+    "language": "Preferred language",
+    "langRu": "Русский",
+    "langUz": "O'zbekcha",
+    "langEn": "English",
+    "submit": "Send request",
+    "successTitle": "Request received!",
+    "successText": "We will contact you shortly. To get a faster reply — message us right now on WhatsApp.",
+    "successAnother": "Send another request",
+    "waTitle": "Fast reply",
+    "waText": "The fastest way to get an answer is to message us on WhatsApp. Your coordinator replies in Russian and Uzbek.",
+    "waButton": "Open WhatsApp",
+    "callTitle": "Call us",
+    "emailTitle": "Email us",
+    "note": "By submitting the form you consent to your data being processed solely for the purpose of a treatment consultation. Your documents are not shared with third parties without your consent.",
+    "treatments": {
+      "cardiology": "Cardiology",
+      "oncology": "Oncology",
+      "orthopedics": "Orthopaedics",
+      "urology": "Urology",
+      "neurosurgery": "Neurosurgery"
+    }
+  },
+  "Footer": {
+    "tagline": "Organising treatment in India for patients from Uzbekistan: verified hospitals, transparent prices and coordination in Russian and Uzbek.",
+    "linksTitle": "Sections",
+    "treatmentsTitle": "Treatments",
+    "contactTitle": "Contact",
+    "disclaimer": "The information on this website is for reference only and does not constitute medical advice. The final decision about treatment is made by your treating doctor after an in-person consultation. Prices are indicative.",
+    "rights": "All rights reserved.",
+    "photoCredits": "Hospital and doctor photos: Wikimedia Commons (CC BY-SA)."
+  },
+  "Common": {
+    "freeConsult": "Free consultation",
+    "learnMore": "Learn more",
+    "language": "Language"
+  },
+  "Figures": {
+    "title": "Why India",
+    "tile2Value": "≈ 3 hours",
+    "tile2Label": "Tashkent — Delhi, direct"
+  },
+  "Menu": {
+    "title": "Indicative prices",
+    "note": "Prices are indicative, in US dollars, and depend on the diagnosis, the scope of the procedure, the hospital and the surgeon. An exact quote is prepared after the consultation.",
+    "all": "All"
+  },
+  "Facts": {
+    "title": "Hospitals in figures",
+    "colYear": "Year",
+    "colHospital": "Hospital",
+    "colDetails": "City · accreditation",
+    "colBeds": "Beds",
+    "badge": "The record",
+    "subtitle": "Accreditation, capacity and founding year for each partner institute — verified from public sources."
+  }
+}

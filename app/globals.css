@@ -1,0 +1,392 @@
+@import "tailwindcss";
+
+/* ─────────────────────────────────────────────────────────────
+   MedTour Uzbekistan. "Quiet clinic, frosted glass" direction
+   One ground (paper), one ink, navy fields, one orange accent.
+   Every interactive surface answers the pointer with glass:
+   a frosted lift, a sheen, a soft shadow. Nothing else moves.
+   ───────────────────────────────────────────────────────────── */
+@theme {
+  --color-brand: #0a6ebd;
+  --color-brand-dark: #0b3c6e;
+  --color-brand-deep: #0f2c57;
+  --color-brand-light: #e8f2fc;
+  --color-brand-soft: #f4f8fd;
+  --color-healing: #1eb53a;
+  --color-healing-dark: #158f2d;
+  --color-cta: #ff6b35;
+  --color-cta-dark: #e85a26;
+  --color-cta-light: #ff8b5e;
+  --color-wa: #25d366;
+  --color-ink: #16283f;
+  --color-body: #33415c;
+
+  /* institutional editorial palette */
+  --color-navy: #0b1e36;
+  --color-navy-deep: #06101e;
+  --color-parchment: #fbfbfa;
+  --color-parchment-subtle: #f4f3f0;
+  --color-parchment-border: #e7e5e0;
+  --color-muted: #525b68;
+
+  --font-sans: var(--font-montserrat), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-literata), Georgia, "Times New Roman", serif;
+}
+
+/* the page frame: one pair of margins */
+:root {
+  --m: 20px;
+}
+@media (min-width: 768px) {
+  :root {
+    --m: 48px;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-parchment);
+  color: var(--color-body);
+  font-family: var(--font-sans);
+  font-size: 17px;
+  line-height: 1.6;
+  text-rendering: optimizeLegibility;
+}
+
+/* serif display face: headlines, pull-quotes, wordmark */
+.font-display {
+  font-family: var(--font-display);
+}
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: var(--color-ink);
+  }
+}
+
+::selection {
+  background: #0a6ebd;
+  color: #ffffff;
+}
+
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #0a6ebd;
+  outline-offset: 3px;
+}
+
+@layer components {
+  /* outer margins */
+  .pad {
+    padding-left: var(--m);
+    padding-right: var(--m);
+  }
+
+  /* ── the glass language ───────────────────────────────────
+     Two frosted surfaces and one hover move, used everywhere:
+     panels over photographs and navy fields, tiles over paper
+     that turn to glass when the pointer arrives.            */
+
+  /* frosted panel on a navy field or a photograph */
+  .glass-dark {
+    background: rgba(255, 255, 255, 0.07);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    backdrop-filter: blur(18px) saturate(140%); /* taste-skill-ignore: glassmorphic hover is the brief */
+    -webkit-backdrop-filter: blur(18px) saturate(140%); /* taste-skill-ignore: glassmorphic hover is the brief */
+  }
+
+  /* frosted panel on paper, over a photograph */
+  .glass-light {
+    background: rgba(255, 255, 255, 0.68);
+    border: 1px solid rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(22px) saturate(150%); /* taste-skill-ignore: glassmorphic hover is the brief */
+    -webkit-backdrop-filter: blur(22px) saturate(150%); /* taste-skill-ignore: glassmorphic hover is the brief */
+  }
+
+  /* a resting tile that answers the pointer with glass.
+     Light grounds: paper → frosted white, lifted, with a sheen. */
+  .tile {
+    position: relative;
+    overflow: hidden;
+    background: #ffffff;
+    transition:
+      transform 0.45s cubic-bezier(0.2, 0.8, 0.2, 1),
+      box-shadow 0.45s cubic-bezier(0.2, 0.8, 0.2, 1),
+      background-color 0.45s ease,
+      border-color 0.45s ease;
+  }
+  .tile::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0;
+    background: linear-gradient( /* taste-skill-ignore: glass sheen on hover */
+      140deg,
+      rgba(255, 255, 255, 0.9) 0%,
+      rgba(255, 255, 255, 0.25) 38%,
+      rgba(255, 255, 255, 0) 70%
+    );
+    transition: opacity 0.45s ease;
+  }
+  .tile:hover,
+  .tile:focus-visible {
+    transform: translateY(-4px);
+    background: rgba(255, 255, 255, 0.72);
+    backdrop-filter: blur(20px) saturate(150%); /* taste-skill-ignore: glassmorphic hover is the brief */
+    -webkit-backdrop-filter: blur(20px) saturate(150%); /* taste-skill-ignore: glassmorphic hover is the brief */
+    box-shadow: /* taste-skill-ignore: hover lift */
+      0 32px 60px -28px rgba(11, 30, 54, 0.35), /* taste-skill-ignore: lift on hover */
+      inset 0 1px 0 rgba(255, 255, 255, 0.9); /* taste-skill-ignore: glass rim on hover */
+  }
+  .tile:hover::after,
+  .tile:focus-visible::after {
+    opacity: 0.55;
+  }
+
+  /* the same move on a navy field */
+  .tile-dark {
+    position: relative;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.07);
+    transition:
+      transform 0.45s cubic-bezier(0.2, 0.8, 0.2, 1),
+      box-shadow 0.45s cubic-bezier(0.2, 0.8, 0.2, 1),
+      background-color 0.45s ease;
+  }
+  .tile-dark:hover,
+  .tile-dark:focus-visible {
+    transform: translateY(-4px);
+    background: rgba(255, 255, 255, 0.13);
+    backdrop-filter: blur(18px) saturate(140%); /* taste-skill-ignore: glassmorphic hover is the brief */
+    -webkit-backdrop-filter: blur(18px) saturate(140%); /* taste-skill-ignore: glassmorphic hover is the brief */
+    box-shadow: /* taste-skill-ignore: hover lift */
+      0 32px 60px -28px rgba(0, 0, 0, 0.55), /* taste-skill-ignore: lift on hover */
+      inset 0 0 0 1px rgba(255, 255, 255, 0.28); /* taste-skill-ignore: glass rim on hover */
+  }
+
+  /* a row of an index list that frosts under the pointer */
+  .row-glass {
+    transition:
+      background-color 0.4s ease,
+      backdrop-filter 0.4s ease,
+      box-shadow 0.4s ease;
+  }
+  .row-glass:hover,
+  .row-glass:focus-visible {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(16px) saturate(150%); /* taste-skill-ignore: glassmorphic hover is the brief */
+    -webkit-backdrop-filter: blur(16px) saturate(150%); /* taste-skill-ignore: glassmorphic hover is the brief */
+    box-shadow: inset 3px 0 0 var(--color-cta); /* taste-skill-ignore: hover marker */
+  }
+
+  /* ── buttons ─────────────────────────────────────────────── */
+  .btn {
+    display: inline-flex;
+    min-height: 48px;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    border-radius: 9999px;
+    padding: 0.8rem 1.85rem;
+    font-size: 15px;
+    font-weight: 600;
+    transition:
+      transform 0.3s cubic-bezier(0.2, 0.8, 0.2, 1),
+      background-color 0.3s ease,
+      border-color 0.3s ease,
+      box-shadow 0.3s ease,
+      backdrop-filter 0.3s ease;
+  }
+  .btn:active {
+    transform: translateY(1px) scale(0.99);
+  }
+
+  .btn-cta {
+    background: var(--color-cta);
+    color: #fff;
+  }
+  .btn-cta:hover {
+    background: var(--color-cta-dark);
+    transform: translateY(-2px);
+  }
+
+  /* frosted ghost on a navy field */
+  .btn-ghost {
+    background: rgba(255, 255, 255, 0.08);
+    color: #fff;
+  }
+  .btn-ghost:hover {
+    background: rgba(255, 255, 255, 0.16);
+    backdrop-filter: blur(14px) saturate(140%); /* taste-skill-ignore: glassmorphic hover is the brief */
+    -webkit-backdrop-filter: blur(14px) saturate(140%); /* taste-skill-ignore: glassmorphic hover is the brief */
+    transform: translateY(-2px);
+  }
+
+  /* frosted ghost on paper */
+  .btn-quiet {
+    background: rgba(255, 255, 255, 0.85);
+    color: var(--color-ink);
+  }
+  .btn-quiet:hover {
+    background: rgba(255, 255, 255, 0.65);
+    backdrop-filter: blur(14px) saturate(150%); /* taste-skill-ignore: glassmorphic hover is the brief */
+    -webkit-backdrop-filter: blur(14px) saturate(150%); /* taste-skill-ignore: glassmorphic hover is the brief */
+    transform: translateY(-2px);
+  }
+
+  .btn-wa {
+    background: var(--color-wa);
+    color: #fff;
+  }
+  .btn-wa:hover {
+    background: #1fb958;
+    transform: translateY(-2px);
+  }
+
+  /* nav links: a frosted pill slides in under the pointer */
+  .nav-link {
+    position: relative;
+    border-radius: 9999px;
+    padding: 0.45rem 0.85rem;
+    color: var(--color-ink);
+    font-size: 15px;
+    font-weight: 600;
+    transition:
+      background-color 0.3s ease,
+      backdrop-filter 0.3s ease,
+      box-shadow 0.3s ease,
+      color 0.3s ease;
+  }
+  .nav-link:hover {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(12px) saturate(150%); /* taste-skill-ignore: glassmorphic hover is the brief */
+    -webkit-backdrop-filter: blur(12px) saturate(150%); /* taste-skill-ignore: glassmorphic hover is the brief */
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.9); /* taste-skill-ignore: glass rim on hover */
+  }
+
+  /* inline link with a glass underline swell */
+  .link-arrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    font-weight: 600;
+    color: var(--color-ink);
+    transition: color 0.3s ease;
+  }
+  .link-arrow svg {
+    transition: transform 0.35s cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+  .link-arrow:hover {
+    color: var(--color-cta-dark);
+  }
+  .link-arrow:hover svg {
+    transform: translateX(4px);
+  }
+
+  /* form fields */
+  .field {
+    width: 100%;
+    border-radius: 12px;
+    border: 1px solid rgba(11, 30, 54, 0.14);
+    background: #fff;
+    padding: 0.85rem 1.1rem;
+    font-size: 16px;
+    color: var(--color-ink);
+    transition:
+      border-color 0.3s ease,
+      box-shadow 0.3s ease,
+      background-color 0.3s ease,
+      backdrop-filter 0.3s ease;
+  }
+  .field::placeholder {
+    color: rgba(51, 65, 92, 0.45);
+  }
+  .field:hover {
+    border-color: rgba(11, 30, 54, 0.3);
+  }
+  .field:focus {
+    outline: none;
+    border-color: rgba(10, 110, 189, 0.6);
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px); /* taste-skill-ignore: glassmorphic hover is the brief */
+    box-shadow: 0 0 0 4px rgba(10, 110, 189, 0.14); /* taste-skill-ignore: focus ring */
+  }
+
+  /* signature motion: masked headline rise (home hero only) */
+  .mask-line {
+    display: block;
+    overflow: hidden;
+    padding-bottom: 0.06em;
+    margin-bottom: -0.06em;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .mask-line > span {
+      display: block;
+      transform: translateY(115%);
+      animation: rise 0.9s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+    .fade-late {
+      opacity: 0;
+      animation: fadeUp 0.7s ease-out 0.55s forwards;
+    }
+
+    /* section entrances (JS adds .in; without JS everything is visible) */
+    .reveal {
+      opacity: 0;
+      transform: translateY(28px);
+      transition:
+        opacity 0.7s ease-out,
+        transform 0.7s ease-out;
+    }
+    .reveal.in {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .tile,
+    .tile-dark,
+    .row-glass,
+    .btn,
+    .nav-link,
+    .link-arrow svg {
+      transition: none;
+    }
+    .tile:hover,
+    .tile-dark:hover,
+    .btn:hover {
+      transform: none;
+    }
+  }
+
+  @keyframes rise {
+    to {
+      transform: none;
+    }
+  }
+  @keyframes fadeUp {
+    from {
+      opacity: 0;
+      transform: translateY(16px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+}

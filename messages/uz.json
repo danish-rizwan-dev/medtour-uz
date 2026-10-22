@@ -1,0 +1,450 @@
+{
+  "Metadata": {
+    "title": "MedTour Uzbekistan — Hindistonda davolanish o'zbekistonlik bemorlar uchun",
+    "description": "O'zbekistonlik bemorlar uchun Hindistonda davolanishni tashkil etish: kardiologiya, onkologiya, ortopediya, urologiya va neyroxirurgiya. Bepul ikkinchi fikr, viza yordami va rus hamda o'zbek tillarida hamrohlik.",
+    "keywords": "Hindistonda davolanish, Hindistonda tibbiy turizm, Hindistonda operatsiya narxi, kardiologiya Hindiston, onkologiya Hindiston, medical tourism India Uzbekistan"
+  },
+  "Navbar": {
+    "home": "Bosh sahifa",
+    "treatments": "Yo'nalishlar",
+    "hospitals": "Kasalxonalar",
+    "howItWorks": "Qanday ishlaydi",
+    "consultation": "Maslahat",
+    "cta": "Bepul maslahat",
+    "menu": "Menyu",
+    "closeMenu": "Menyuni yopish"
+  },
+  "Hero": {
+    "badge": "Tibbiy turizm • O'zbekiston → Hindiston",
+    "title": "Hindistonda davolanish",
+    "titleHighlight": "o'zbekistonlik bemorlar uchun",
+    "subtitle": "Hindistonning yetakchi kasalxonalarini tanlaymiz, ikkinchi fikr, vizani, parvozni va rus hamda o'zbek tilidagi hamrohlikni tashkil etamiz — maslahatdan uyga qaytishgacha.",
+    "ctaPrimary": "Bepul maslahat",
+    "ctaWhatsApp": "WhatsApp orqali yozish",
+    "trust1": "JCI va NABH kasalxonalari",
+    "trust2": "Rus va o'zbek tilida hamrohlik",
+    "trust3": "Bepul ikkinchi fikr",
+    "stat1Value": "60–80%",
+    "stat1Label": "Yevropa narxlariga nisbatan tejash",
+    "stat2Value": "24–72 soat",
+    "stat2Label": "shifokorlardan davolanish rejas",
+    "stat3Value": "5",
+    "stat3Label": "asosiy yo'nalish",
+    "stat4Value": "24/7",
+    "stat4Label": "bemorlarni qo'llab-quvvatlash"
+  },
+  "Specialties": {
+    "title": "Davolanish yo'nalishlari",
+    "subtitle": "Biz Hindiston tibbiyotining yetakchi mutaxassisliklari bilan ishlaymiz — sifat va narx jihatidan dunyo yetakchilari bo'lgan sohalar.",
+    "cardiology": {
+      "name": "Kardiologiya",
+      "desc": "Yurak koronar bypas, angioplastika va yurak nuqsonlarini xalqaro sertifikatli kasalxonalarda davolash."
+    },
+    "oncology": {
+      "name": "Onkologiya",
+      "desc": "O'paylar jarrohligi, kimyoterapiya, nurlanish terapiyasi va xalqaro protokollar bo'yicha rakka qarshi kompleks davo."
+    },
+    "orthopedics": {
+      "name": "Ortopediya",
+      "desc": "Tizza va son bo'g'imlarini almashtirish, orqa miya operatsiyalari, shikastlanishlar va sport travmalari davolashi."
+    },
+    "urology": {
+      "name": "Urologiya",
+      "desc": "Siydik toshini davolash, adenoma operatsiyalari, buyrak transplantatsiyasi va urologik onkologiya."
+    },
+    "neurosurgery": {
+      "name": "Neyroxirurgiya",
+      "desc": "Miya va orqa miya operatsiyalari, anevrizmalar va asab tizimi funktsional buzilishlarini davolash."
+    },
+    "allTreatments": "Barcha davolanish yo'nalishlari"
+  },
+  "WhyUs": {
+    "title": "Nega o'zbekistonlik bemorlar bizni tanlaydi",
+    "subtitle": "Biz davolanishning butun tashkil etishini o'z zimmamizga olamiz, siz esa tiklanish bilan shug'ullanasiz.",
+    "i1": {
+      "title": "Tekshirilgan kasalxonalar",
+      "desc": "Faqat akkreditatsiyalangan kasalxonalar (JCI, NABH) va xalqaro tajribaga ega shifokorlar bilan ishlaymiz."
+    },
+    "i2": {
+      "title": "Shaffof narxlar",
+      "desc": "Yo'ldan oldin yozma smeta olasiz — yashirin to'lovlar va kutilmagan holatlarsiz."
+    },
+    "i3": {
+      "title": "Rus tilida hamrohlik",
+      "desc": "Har bir bosqichda rus va o'zbek tilida koordinator: hujjatlardan davolanishgacha."
+    },
+    "i4": {
+      "title": "Viza yordami",
+      "desc": "Tibbiy viza uchun taklifnoma va hujjatlar to'plamini olishda yordam beramiz."
+    },
+    "i5": {
+      "title": "Bepul ikkinchi fikr",
+      "desc": "Hindiston shifokorlari hujjatlaringizni o'rganib xulosa beradi — to'lov va sayohatdan oldin."
+    },
+    "i6": {
+      "title": "Davolanishdan keyingi hamrohlik",
+      "desc": "O'zbekistonga qaytgandan keyin onlayn nazorat konsultatsiyalari."
+    },
+    "badge": "Nega MedTour"
+  },
+  "Process": {
+    "title": "Davolanish qanday o'tadi",
+    "subtitle": "Birinchi xabardan uyga qaytishgacha oltita qadamdan iborat aniq yo'l.",
+    "step1": {
+      "title": "Bepul maslahat",
+      "desc": "Tashxis va tibbiy hujjatlarni forma yoki WhatsApp orqali yuborasiz."
+    },
+    "step2": {
+      "title": "Hindiston shifokorlari fikri",
+      "desc": "2–3 kun ichida mutaxassislar xulosasi va davolanish rejasini olasiz."
+    },
+    "step3": {
+      "title": "Smola va kasalxona tanlash",
+      "desc": "Variantlar va narxlarni solishtirasiz, kasalxona va shifokorni tanlaysiz."
+    },
+    "step4": {
+      "title": "Viza va hujjatlar",
+      "desc": "Kasalxonadan taklifnoma olasiz va tibbiy viza rasmiylashtirishda yordam olasiz."
+    },
+    "step5": {
+      "title": "Sayohat va davolanish",
+      "desc": "Aeroportda kutib olish, kasalxonada tarjima, klinika yonida turar joy."
+    },
+    "step6": {
+      "title": "Vitalash va kuzatuv",
+      "desc": "Nazorat rejasiga uyga qaytasiz va shifokorlar bilan aloqada qolasiz."
+    },
+    "allSteps": "Jarayon haqida batafsil",
+    "zone1": "Yig'amiz",
+    "zone2": "Tashkil etamiz",
+    "zone3": "Davolaymiz",
+    "badge": "Klinik reglament"
+  },
+  "Doctors": {
+    "title": "Dunyo darajasidagi shifokorlar",
+    "subtitle": "Xalqaro obro'ga va o'n minglab muvaffaqiyatli operatsiyalarga ega hind jarrohlari.",
+    "trehan": {
+      "facts": "40 yildan ortiq tajribaga ega jarroh, 1991-yildan beri Hindiston prezidentining shaxsiy jarrohi. Padma Shri va Padma Bhushan mukofotlari laureati. Medanta – The Medicity rahbari."
+    },
+    "panda": {
+      "facts": "Taxminan 30 000 muvaffaqiyatli kardioxirurgik operatsiya bajaragan, shu jumladan 2 000 dan ortiq takroriy va 6 000 dan ortiq yuqori xavfli operatsiyalar. Padma Bhushan (2010) mukofotlari laureati."
+    },
+    "note": "Foto va biografiyalar ochiq manbalardan olingan. Sizning davolovchi shifokoringiz konsultatsiyadan so'ng tayinlanadi.",
+    "badge": "Yetakchi jarrohlar"
+  },
+  "HospitalsSection": {
+    "title": "Hamkor kasalxonalar",
+    "subtitle": "MDH davlatlaridan kelgan bemorlarni xalqaro standartlar bo'yicha qabul qiluvchi Hindistonning yetakchi kasalxonalari.",
+    "factEstablished": "Tashkil etilgan",
+    "factBeds": "Ko'riklar",
+    "factAccreditation": "Akkreditatsiya",
+    "apollo": "Hindistonning eng yirik xususiy kasalxonalaridan biri: 1995-yilda Dehli hukumati bilan birgalikda tashkil etilgan, 15 gektar maydonda 695 ko'ikalar. Kardioxirurgiya, onkologiya va transplantologiya bilan mashhur.",
+    "fortis": "Fortis Healthcare tarmog'ining ko'p tarmoqli kasalxonasi, Noyda (Dehli NCR), 62-sektor: 400 dan ortiq ko'ikalar, 140+ reanimatsiya ko'ikalari va 18 modul operatsion.",
+    "max": "Janubiy Dehlidagi 539 ko'ikalik kasalxona, JCI va NABH akkreditatsiyasiga ega. Murakkab aralashuvlar ixtisoslashgan: onkologiya, kardioxirurgiya, neyrxirurgiya, organ transplantatsiyasi.",
+    "aiims": "Hindistonning eng yirik davlat tibbiyot markazi va mamlakatdagi eng yaxshilaridan biri: 3 600 dan ortiq ko'ikalar, 1956-yilda tashkil etilgan. Dalil asosidagi tibbiyot va tadqiqotlar andozasi.",
+    "allHospitals": "Barcha kasalxonalar",
+    "badge": "Hamkor institutlar"
+  },
+  "Testimonials": {
+    "title": "Bemorlar fikri",
+    "subtitle": "Yordamimiz bilan Hindistonda davolanishdan o'tgan o'zbekistonliklar tarixlari.",
+    "t1": {
+      "text": "Hujjatlarni dushanba kuni yubordik, chorshanba kuni reja va smeta tayyor edi. Hammasi tez tashkil qilindi, kordinator doim aloqada edi.",
+      "name": "Rustam A., Toshkent"
+    },
+    "t2": {
+      "text": "Tizza operatsiyasi Turkiyadan uchalaga arzon tushdi, kasxona esa kutganimizdan yaxshi edi. Har kuni tarjimon yonimizda edi.",
+      "name": "Nilufar S., Samarqand"
+    },
+    "t3": {
+      "text": "Onkologiya maslahatiga keldik — ikkinchi fikr va aniq reja oldik. Har bir bosqichdagi qo'llab-quvvatlash uchun minnatdormiz.",
+      "name": "Dmitriy K., Namangan"
+    },
+    "note": "Mijozlar fikrlari namunalari — haqiqiy hikoyalar bilan almashtiriladi.",
+    "badge": "Bemorlar hikoyalari"
+  },
+  "FAQ": {
+    "title": "Ko'p beriladigan savollar",
+    "q1": "Nega Hindistonda davolanishni tanlaydilar?",
+    "a1": "Hindiston yuqori darajadagi tibbiyotni — JCI va NABH akkreditatsiyasiga ega kasalxonalar, xalqaro tajribaga ega shifokorlarni — va Yevropa, AQSh va ko'pincha Turkiyadan 60–80% arzon davolash narxlarini birlashtiradi. O'zbekistonlik bemorlar uchun rus tilidagi hamrohlikning mavjudligi ham muhim.",
+    "q2": "Davolanish uchun viza kerakmi?",
+    "a2": "Ha, O'zbekiston fuqarolari uchun Hindistonning tibbiy vizasi kerak. Biz kasalxonadan taklifnoma olish va hujjatlar to'plamini rasmiylashtirishda yordam beramiz — odatda bu bir necha ish kunini oladi.",
+    "q3": "Davolanish qancha turadi?",
+    "a3": "Narx tashxis, operatsiya hajmi va tanlangan kasalxonaga bog'liq. Hujjatlaringizni o'rgangandan so'ng, sayohatdan oldin yozma smeta yuboramiz — narxni oldindan bilasiz. Saytida taxminiy narx oralig'i keltirilgan.",
+    "q4": "Rus va o'zbek tillarida qo'llab-quvvatlash bormi?",
+    "a4": "Ha. Sizning koordinatoringiz rus va o'zbek tillarida muloqot qiladi, kasalxonada qabullar va protseduralarda tibbiy tarjima ta'minlanadi.",
+    "q5": "Davolanishga qancha tez chiqish mumkin?",
+    "a5": "Hujjatlar bo'yicha xulosa shifokorlar 2–3 kun beradi. Tayyor hujjatlar bilan chiqish odatda viza rasmiylashtirish bilan birga 1–2 hafta ichida mumkin.",
+    "q6": "Uyga qaytgach nima bo'ladi?",
+    "a6": "Chiqarish xulosasi, tavsiyalar va kuzatuv rejasini olasiz. Biz aloqada qolamiz: O'zbekistonga qaytgach davolovchi shifokor bilan onlayn konsultatsiyalarni tashkil etamiz.",
+    "badge": "Reglament va savollar"
+  },
+  "CTA": {
+    "title": "Davolanishingiz narxini bilib oling",
+    "subtitle": "Hujjatlarni yuboring — 24–72 soat ichida hind shifokorlarining bepul xulosasi va shaffof smeta oling.",
+    "button": "Bepul maslahat olish",
+    "whatsapp": "Yoki WhatsApp orqali yozing",
+    "badge": "Tibbiy ekspertiza",
+    "subtitle2": "Tibbiy hujjatlaringiz maxfiy qayta ishlanadi."
+  },
+  "TreatmentsPage": {
+    "badge": "Davolanish yo'nalishlari",
+    "title": "Hindistonda davolanish: yo'nalishlar va narxlar",
+    "subtitle": "Hindiston tibbiyotining besh yetakchi mutaxassisligi taxminiy narxlar bilan. Aniq narx tashxis o'rganilgandan keyin belgilanadi.",
+    "priceNote": "Narxlar taxminiy, AQSh dollarida, va tashxis, aralashuv hajmi, kasalxona va shifokorga bog'liq. Aniq smeta konsultatsiyadan so'ng tuziladi.",
+    "fromLabel": "dan",
+    "popularProcedures": "Ommabop operatsiyalar va protseduralar",
+    "indicativePrices": "Taxminiy narxlar (USD)",
+    "requestQuote": "Narxni hisoblash",
+    "cardiology": {
+      "name": "Kardiologiya va kardioxirurgiya",
+      "about": "Hindiston kardioxirurgiyada dunyo yetakchilaridan biri: yuqori murakkablikdagi protseduralar JCI akkreditatsiyasiga ega kasalxonalarda Yevropa narxlaridan bir necha barobar arzon bajariladi. O'zbekistonlik bemorlar uchun angioplastikadan bypas va klapan almashtirishgacha barcha aralashuvlar mavjud.",
+      "procedures": [
+        "Koronar arteriya bypas (CABG)",
+        "Stent o'rnatish bilan angioplastika",
+        "Klapan almashtirish va plastikasi",
+        "Kardiostimulator va defibrillyator o'rnatish",
+        "Yurak tug'ma nuqsonlari (kattalar va bolalar)"
+      ],
+      "prices": [
+        {
+          "name": "Bypas (CABG)",
+          "range": "$4 500 – $7 500"
+        },
+        {
+          "name": "Stent bilan angioplastika",
+          "range": "$3 500 – $5 500"
+        },
+        {
+          "name": "Klapan almashtirish",
+          "range": "$5 500 – $9 000"
+        }
+      ]
+    },
+    "oncology": {
+      "name": "Onkologiya",
+      "about": "Hindistonda rak davolashi xalqaro protokollar (NCCN) bo'yicha zamonaviy uskunalar bilan olib boriladi: lineynye uskoryateli, robotlashtirilgan jarrohlik, nishonli va immunoterapiya dasturlari. Yetakchi onkologik markazlar — Tata Memorial, Max, Apollo va Medanta — chetdan kelgan bemorlarni qabul qiladi.",
+      "procedures": [
+        "Istalgan joylashuvdagi o'pay jarrohligi",
+        "Kimyoterapiya (nishonli bilan birga)",
+        "Nurlanish terapiyasi (IMRT, VMAT, stereotaksiya)",
+        "Immunoterapiya",
+        "Suyak mujoza transplantatsiyasi"
+      ],
+      "prices": [
+        {
+          "name": "Kimyoterapiya kursi",
+          "range": "$500 – $1 500"
+        },
+        {
+          "name": "Nurlanish terapiyasi kursi",
+          "range": "$3 000 – $6 000"
+        },
+        {
+          "name": "O'payni olib tashlash operatsiyasi",
+          "range": "$4 000 – $9 000"
+        }
+      ]
+    },
+    "orthopedics": {
+      "name": "Ortopediya va travmatologiya",
+      "about": "Hindistonda bo'g'im almashtirish va orqa miya operatsiyalari zamonaviy uskunalar, dunyoning yetakchi ishlab chiqaruvchilarining implatlari va xalqaro protokollar bo'yicha tiklanish bilan bajariladi. Bu o'zbekistonlik bemorlar orasida eng talabgor yo'nalishlardan biri.",
+      "procedures": [
+        "Tizza bo'g'imini almashtirish",
+        "Son bo'g'imini almashtirish",
+        "Orqa miya operatsiyalari (disk gryzhasi, spindilodez)",
+        "Bo'g'imlar artroskopiyasi",
+        "Travma oqibatlarini davolash"
+      ],
+      "prices": [
+        {
+          "name": "Tizza bo'g'imini almashtirish",
+          "range": "$3 500 – $6 000"
+        },
+        {
+          "name": "Son bo'g'imini almashtirish",
+          "range": "$4 000 – $7 000"
+        },
+        {
+          "name": "Orqa miya operatsiyasi",
+          "range": "$5 000 – $9 000"
+        }
+      ]
+    },
+    "urology": {
+      "name": "Urologiya",
+      "about": "Hindiston urologik markazlari siydik toshini kam invaziv davolashga (lazersiz, kesiklarsiz), prostata adenomasi operatsiyalariga, buyrak transplantatsiyasi va urologik onkologiyaga ixtisoslashgan — narxlar Turkiya va Isroil klinikalaridan sezilarli darajada past.",
+      "procedures": [
+        "Siydik toshini davolash (URS, PCNL, lazer)",
+        "Prostata transuretral rezektsiyasi (TURP)",
+        "Buyrak transplantatsiyasi (oilaviy donator)",
+        "Urologik onkologiya (buyrak, siydik puchagi, prostata)",
+        "Siydik o'tlarini rekonstruktsiyasi"
+      ],
+      "prices": [
+        {
+          "name": "Toshni olib tashlash (URS/PCNL)",
+          "range": "$1 800 – $3 500"
+        },
+        {
+          "name": "TURP operatsiyasi",
+          "range": "$2 500 – $4 000"
+        },
+        {
+          "name": "Buyrak transplantatsiyasi",
+          "range": "$13 000 – $18 000"
+        }
+      ]
+    },
+    "neurosurgery": {
+      "name": "Neyroxirurgiya",
+      "about": "Yuqori murakkab neyrxirurgik operatsiyalar — miya o'paylari, anevrizmalar, orqa miya patologiyalari — Hindistonda dunyo standartlariga mos jihozlangan neyro-markazlarda neyronavigatsiya va intraoperatsion monitoring bilan bajariladi.",
+      "procedures": [
+        "Miya o'paylarini olib tashlash operatsiyalari",
+        "Anevrizmalarni davolash (kliplash va koil qilish)",
+        "Spindilodez va orqa miya rekonstruktsiyasi",
+        "Gidrosefaliya davolashi",
+        "Miya stimulyatsiyasi (DBS) Parkinson kasalligida"
+      ],
+      "prices": [
+        {
+          "name": "Miya o'payi operatsiyasi",
+          "range": "$6 000 – $12 000"
+        },
+        {
+          "name": "Orqa miya spindilodezi",
+          "range": "$6 000 – $10 000"
+        },
+        {
+          "name": "Anevrizma davolashi",
+          "range": "$5 000 – $10 000"
+        }
+      ]
+    }
+  },
+  "HospitalsPage": {
+    "badge": "Hamkor kasalxonalar",
+    "title": "Tekshirilgan Hindiston kasalxonalari",
+    "subtitle": "Biz klinikalarni shaxsan tanlaymiz: xalqaro akkreditatsiyalar, MDH mamlakatlaridan bemorlarni qabul qilish tajribasi va dunyo miqyosidagi shifokorlar.",
+    "factEstablished": "Tashkil etilgan",
+    "factBeds": "Ko'riklar",
+    "factAccreditation": "Akkreditatsiya",
+    "whyTitle": "Kasalxonalarni qanday tanlaymiz",
+    "why1": "JCI / NABH xalqaro akkreditatsiyalari — xavfsizlik va sifat kafolati.",
+    "why2": "O'zbekiston va MDH mamlakatlaridan bemorlarni qabul qilish tajribasi, jumladan rus tilida hamrohlik.",
+    "why3": "Shaffof yozma smetar va yashirin to'lovlar yo'qligi.",
+    "why4": "Sizga kerak bo'lgan mutaxassislikdagi kuchli shifokorlar — tashxis ostida aniq mutaxassisni tanlaymiz.",
+    "doctorsTitle": "Dunyo ishonadigan jarrohlar",
+    "ctaTitle": "Tashxisingiz bo'yicha kasalxonani tanlab beramiz",
+    "ctaText": "Vaziyatni tasvirlab bering — 24–72 soat ichida narxlar bilan 2–3 mos klinika taklif qilamiz.",
+    "ctaButton": "Tanlovni olish"
+  },
+  "HowItWorksPage": {
+    "badge": "Qanday ishlaydi",
+    "title": "Davolanishgacha 6 qadam",
+    "subtitle": "To'liq hamrohlik tsikli: birinchi xabardan O'zbekistonga qaytgandan keyingi nazoratgacha.",
+    "step1": {
+      "title": "Bepul maslahat",
+      "desc": "Tibbiy hujjatlarni (chiqarishlar, tasvirlar, tahlillar) forma yoki WhatsApp orqali yuborasiz. Koordinatorimiz rus yoki o'zbek tilida javob beradi va aynan sizning holatingizga qaysi hujjatlar kerakligini aytadi."
+    },
+    "step2": {
+      "title": "Hindiston shifokorlari xulosasi",
+      "desc": "Hujjatlarni yetakchi kasalxonaning mutaxassisi o'rganadi. 2–3 kun ichida tibbiy xulosa, tavsiyalar va davolanish rejasini olasiz — bu bepul ikkinchi fikr sizni hech narsaga majburlamaydi."
+    },
+    "step3": {
+      "title": "Smola va klinika tanlash",
+      "desc": "Shaffof yozma smeta yuboramiz: davolanish, turar joy, diagnostika. Kerak bo'lsa solishtirish uchun 2–3 ta kasalxona variantini taklif qilamiz — o'zingizga mosini tanlaysiz."
+    },
+    "step4": {
+      "title": "Viza rasmiylashtirish",
+      "desc": "Kasalxona tibbiy viza uchun taklifnoma chiqaradi. Hujjatlarni yig'ish va topshirishda yordam beramiz — jarayon odatda bir necha ish kunini oladi."
+    },
+    "step5": {
+      "title": "Qo'nish va davolanish",
+      "desc": "Dehli aeroportida kutib olamiz, klinika yonida turar joy bilan ta'minlaymiz, qabullar va protseduralarda tarjimoni ta'minlaymiz. Koordinator davolanish davomida 24/7 aloqada bo'ladi."
+    },
+    "step6": {
+      "title": "Vitalash va uyda kuzatuv",
+      "desc": "Davolanishdan so'ng rus tilida chiqarish xulosasi, tiklanish tavsiyalari va shifokorlar aloqalarini olasiz. O'zbekistonga qaytgach onlayn nazorat konsultatsiyalarini tashkil etamiz."
+    },
+    "includedTitle": "Hamrohlikka nima kiradi",
+    "incl1": "Hujjatlar bo'yicha bepul ikkinchi fikr",
+    "incl2": "Tashxis ostida shifokor va kasalxona tanlash",
+    "incl3": "Tibbiy viza uchun taklifnoma",
+    "incl4": "Yo'ldan oldin yozma smeta",
+    "incl5": "Aeroportda kutib olish va klinikada tarjima",
+    "incl6": "Qaytgandan keyin onlayn konsultatsiyalar",
+    "ctaTitle": "Bepul maslahatdan boshlang",
+    "ctaText": "Birinchi qadam — hujjatlarni yuborish. Qolganini biz o'z zimmamizga olamiz.",
+    "ctaButton": "Hujjatlarni yuborish"
+  },
+  "ConsultationPage": {
+    "badge": "Bepul maslahat",
+    "title": "Maslahat so'rash",
+    "subtitle": "Formani to'ldiring yoki WhatsApp orqali yozing — ish kunida rus yoki o'zbek tilida javob beramiz.",
+    "formTitle": "So'rov formasi",
+    "name": "Ismingiz",
+    "namePlaceholder": "Masalan: Aziz",
+    "phone": "Telefon / WhatsApp",
+    "phonePlaceholder": "+998 ...",
+    "treatment": "Davolanish yo'nalishi",
+    "treatmentPlaceholder": "Yo'nalishni tanlang",
+    "treatmentUnknown": "Hali bilmayman, maslahat kerak",
+    "message": "Vaziyatni tasvirlab bering",
+    "messagePlaceholder": "Tashxis, alomatlar, qo'lda qanday hujjatlar bor...",
+    "language": "Muloqot tili",
+    "langRu": "Русский",
+    "langUz": "O'zbekcha",
+    "langEn": "English",
+    "submit": "So'rovni yuborish",
+    "successTitle": "So'rov qabul qilindi!",
+    "successText": "Biz yaqin orada siz bilan bog'lanamiz. Javobni tezlashtirish uchun — hozir WhatsApp orqali yozing.",
+    "successAnother": "Yana bitta so'rov yuborish",
+    "waTitle": "Tez javob",
+    "waText": "Eng tez javob olish yo'li — bizga WhatsApp orqali yozish. Koordinator rus va o'zbek tilida javob beradi.",
+    "waButton": "WhatsApp ni ochish",
+    "callTitle": "Qo'ng'iroq qilish",
+    "emailTitle": "Email yozish",
+    "note": "Formani yuborish orqali siz ma'lumotlaringizni faqat davolanish bo'yicha maslahat uchun qayta ishlashga rozilik bildirasiz. Hujjatlaringiz sizning roziligsingizsiz uchinchi shaxslarga berilmaydi.",
+    "treatments": {
+      "cardiology": "Kardiologiya",
+      "oncology": "Onkologiya",
+      "orthopedics": "Ortopediya",
+      "urology": "Urologiya",
+      "neurosurgery": "Neyroxirurgiya"
+    }
+  },
+  "Footer": {
+    "tagline": "O'zbekistonlik bemorlar uchun Hindistonda davolanishni tashkil etish: tekshirilgan kasalxonalar, shaffof narxlar va rus hamda o'zbek tillarida hamrohlik.",
+    "linksTitle": "Bo'limlar",
+    "treatmentsTitle": "Yo'nalishlar",
+    "contactTitle": "Aloqa",
+    "disclaimer": "Sayt ma'lumotlari tanishuv xarakterida va tibbiy tavsiya emas. Davolash bo'yicha yakuniy qaror davolovchi shifokor tomonidan shaxsiy konsultatsiyadan so'ng qabul qilinadi. Narxlar taxminiy.",
+    "rights": "Barcha huquqlar himoyalangan.",
+    "photoCredits": "Kasalxona va shifokorlar fotolari: Wikimedia Commons (CC BY-SA)."
+  },
+  "Common": {
+    "freeConsult": "Bepul maslahat",
+    "learnMore": "Batafsil",
+    "language": "Til"
+  },
+  "Figures": {
+    "title": "Nega Hindiston",
+    "tile2Value": "≈3 soat",
+    "tile2Label": "Toshkent — Dehli, to'g'ridan-to'g'ri"
+  },
+  "Menu": {
+    "title": "Taxminiy narxlar",
+    "note": "Narxlar taxminiy, AQSh dollarida ifodalangan va tashxis, aralashuv hajmi, kasxona va shifokorga qarab belgilanadi. Aniq smeta konsultatsiyadan keyin tayyorlanadi.",
+    "all": "Barchasi"
+  },
+  "Facts": {
+    "title": "Kasxonalar raqamlarda",
+    "colYear": "Yil",
+    "colHospital": "Kasxona",
+    "colDetails": "Shahar · akkreditatsiya",
+    "colBeds": "O'rinlar",
+    "badge": "Registr",
+    "subtitle": "Har bir hamkor institutning akkreditatsiyasi, sig‘imi va tashkil etilgan yili — ochiq manbalardan tekshirilgan."
+  }
+}
