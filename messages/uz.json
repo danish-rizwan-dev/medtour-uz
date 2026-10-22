@@ -170,7 +170,7 @@
     "q2": "Davolanish uchun viza kerakmi?",
     "a2": "Ha, O'zbekiston fuqarolari uchun Hindistonning tibbiy vizasi kerak. Biz kasalxonadan taklifnoma olish va hujjatlar to'plamini rasmiylashtirishda yordam beramiz — odatda bu bir necha ish kunini oladi.",
     "q3": "Davolanish qancha turadi?",
-    "a3": "Narx tashxis, operatsiya hajmi va tanlangan kasalxonaga bog'liq. Hujjatlaringizni o'rgangandan so'ng, sayohatdan oldin yozma smeta yuboramiz — narxni oldindan bilasiz. Saytida taxminiy narx oralig'i keltirilgan.",
+    "a3": "Narx tashxis, operatsiya hajmi va tanlangan kasalxonaga bog'liq, shuning uchun biz o'zgarmas narxlarni e'lon qilmaymiz. Hujjatlaringizni o'rgangandan so'ng, sayohatdan oldin yozma smeta yuboramiz — narxni oldindan bilasiz. Shaxsiy smeta olish uchun narxni so'rang.",
     "q4": "Rus va o'zbek tillarida qo'llab-quvvatlash bormi?",
     "a4": "Ha. Sizning koordinatoringiz rus va o'zbek tillarida muloqot qiladi, kasalxonada qabullar va protseduralarda tibbiy tarjima ta'minlanadi.",
     "q5": "Davolanishga qancha tez chiqish mumkin?",
@@ -189,12 +189,12 @@
   },
   "TreatmentsPage": {
     "badge": "Davolanish yo'nalishlari",
-    "title": "Hindistonda davolanish: yo'nalishlar va narxlar",
-    "subtitle": "Hindiston tibbiyotining besh yetakchi mutaxassisligi taxminiy narxlar bilan. Aniq narx tashxis o'rganilgandan keyin belgilanadi.",
-    "priceNote": "Narxlar taxminiy, AQSh dollarida, va tashxis, aralashuv hajmi, kasalxona va shifokorga bog'liq. Aniq smeta konsultatsiyadan so'ng tuziladi.",
-    "fromLabel": "dan",
+    "title": "Hindistonda davolanish: yo'nalishlar",
+    "subtitle": "Hindiston tibbiyotining besh yetakchi mutaxassisligi. Aniq narx tashxis o'rganilgandan keyin belgilanadi — shaxsiy smeta uchun narxni so'rang.",
+    "priceNote": "Biz o'zgarmas narxlarni e'lon qilmaymiz — har bir holat individual. Ma'lumotlaringizni yuboring va odatda 24–72 soat ichida shaxsiy yozma smeta oling.",
     "popularProcedures": "Ommabop operatsiyalar va protseduralar",
-    "indicativePrices": "Taxminiy narxlar (USD)",
+    "quoteTitle": "Narxlar so'rov bo'yicha",
+    "quoteText": "Biz o'zgarmas narxlarni e'lon qilmaymiz — har bir holat individual. Ma'lumotlaringizni yuboring va odatda 24–72 soat ichida shaxsiy yozma smeta oling.",
     "requestQuote": "Narxni hisoblash",
     "cardiology": {
       "name": "Kardiologiya va kardioxirurgiya",
@@ -446,5 +446,62 @@
     "colBeds": "O'rinlar",
     "badge": "Registr",
     "subtitle": "Har bir hamkor institutning akkreditatsiyasi, sig‘imi va tashkil etilgan yili — ochiq manbalardan tekshirilgan."
+  },
+  "Chatbot": {
+    "label": "Savol yordamchisini ochish",
+    "title": "Savol yordamchisi",
+    "subtitle": "Tayyor javoblar, shu yerda",
+    "close": "Yordamchini yopish",
+    "placeholder": "Savolingizni yozing…",
+    "send": "Yuborish",
+    "typing": "Yordamchi javozmoqda",
+    "greeting": "Assalomu alaykum! Quyida savol yozing yoki taklif etilganlardan birini tanlang — tayyor javob shu yerda chiqadi.",
+    "fallback": "Bunga hozircha tayyor javobim yo'q. Taklif etilgan savollardan birini tanlang yoki holatingizni koordinatorga yuboring — jonli odam javob beradi.",
+    "consult": "Bepul maslahat",
+    "whatsapp": "WhatsApp",
+    "items": [
+      {
+        "id": "price",
+        "q": "Davolanish qancha turadi?",
+        "a": "Narx tashxis, operatsiya hajmi va tanlangan kasalxonaga bog'liq. Hujjatlaringizni o'rgangandan so'ng, sayohatdan oldin yozma smeta yuboramiz — narxni oldindan bilasiz. Saytida taxminiy narx oralig'i keltirilgan.",
+        "k": ["narx", "narxi", "qancha", "qimmat", "arzon", "baho", "price", "cost"]
+      },
+      {
+        "id": "visa",
+        "q": "Davolanish uchun viza kerakmi?",
+        "a": "Ha, O'zbekiston fuqarolari uchun Hindistonning tibbiy vizasi kerak. Biz kasalxonadan taklifnoma olish va hujjatlar to'plamini rasmiylashtirishda yordam beramiz — odatda bu bir necha ish kunini oladi.",
+        "k": ["viza", "hujjat", "taklifnoma", "pasport", "elchixona", "visa", "documents"]
+      },
+      {
+        "id": "why-india",
+        "q": "Nega Hindistonda davolanishni tanlaydilar?",
+        "a": "Hindiston yuqori darajadagi tibbiyotni — JCI va NABH akkreditatsiyasiga ega kasalxonalar, xalqaro tajribaga ega shifokorlarni — va Yevropa, AQSh va ko'pincha Turkiyadan 60–80% arzon davolash narxlarini birlashtiradi. O'zbekistonlik bemorlar uchun rus tilidagi hamrohlikning mavjudligi ham muhim.",
+        "k": ["hindiston", "nega", "sifat", "xavfsiz", "akkreditats", "jci", "nabh", "yaxshiroq", "india"]
+      },
+      {
+        "id": "timing",
+        "q": "Davolanishga qancha tez chiqish mumkin?",
+        "a": "Hujjatlar bo'yicha xulosa shifokorlar 2–3 kun beradi. Tayyor hujjatlar bilan chiqish odatda viza rasmiylashtirish bilan birga 1–2 hafta ichida mumkin.",
+        "k": ["tez", "qachon", "shoshil", "muddat", "chiqish", "when", "soon"]
+      },
+      {
+        "id": "languages",
+        "q": "Rus va o'zbek tillarida qo'llab-quvvatlash bormi?",
+        "a": "Ha. Sizning koordinatoringiz rus va o'zbek tillarida muloqot qiladi, kasalxonada qabullar va protseduralarda tibbiy tarjima ta'minlanadi.",
+        "k": ["ruscha", "ozbekcha", "uzbekcha", "til", "tarjimon", "tarjima", "qullab", "russian", "uzbek"]
+      },
+      {
+        "id": "hospitals",
+        "q": "Qaysi kasalxonalar bilan ishlaysiz?",
+        "a": "Biz Delhi va Noidadagi yetakchi institutlar — Apollo, Fortis, Max va boshqalar bilan ishlaymiz, ularning barchasi JCI yoki NABH akkreditatsiyasiga ega. Hamkor kasalxonalar ro'yxati «Kasalxonalar» sahifasida; yakuniy tanlov hujjatlaringiz o'rganilgandan keyin amalga oshiriladi.",
+        "k": ["kasalxona", "shifoxona", "klinika", "apollo", "fortis", "max", "aiims", "hospital"]
+      },
+      {
+        "id": "aftercare",
+        "q": "Uyga qaytgach nima bo'ladi?",
+        "a": "Chiqarish xulosasi, tavsiyalar va kuzatuv rejasini olasiz. Biz aloqada qolamiz: O'zbekistonga qaytgach davolovchi shifokor bilan onlayn konsultatsiyalarni tashkil etamiz.",
+        "k": ["qaytgach", "keyin", "vatan", "chiqaril", "tuzalish", "uyga", "after"]
+      }
+    ]
   }
 }

@@ -19,13 +19,6 @@ const categoryKeys = [
 
 const faqKeys = [1, 2, 3, 4, 5, 6] as const;
 
-/** Specialty → lowest "from" price, parsed from the first listed price range. */
-function fromPrice(prices: { range: string }[]): string {
-  const first = prices?.[0]?.range ?? "";
-  const match = first.match(/\$\s?[\d,]+/);
-  return match ? match[0].replace(/\s/g, "") : "";
-}
-
 export async function generateMetadata({
   params,
 }: {
@@ -44,7 +37,6 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
 
 function HomeContent({ locale }: { locale: string }) {
   const t = useTranslations();
-  const tp = useTranslations("TreatmentsPage");
   const cityKey = locale === "ru" ? "cityRu" : locale === "uz" ? "cityUz" : "city";
 
   return (
@@ -128,31 +120,32 @@ function HomeContent({ locale }: { locale: string }) {
           <SectionHead title={t("Specialties.title")} subtitle={t("Specialties.subtitle")} />
           <div className="mt-12">
             {categoryKeys.map((key, i) => {
-              const prices = tp.raw(`${key}.prices`) as { name: string; range: string }[];
               return (
                 <Reveal key={key} delay={i * 60}>
-                  <Link
-                    href="/treatments"
-                    className="row-glass group flex flex-col gap-3 rounded-xl px-4 py-6 md:flex-row md:items-center md:gap-8 md:px-5"
-                  >
+                  <div className="row-glass group flex flex-col gap-3 rounded-xl px-4 py-6 md:flex-row md:items-center md:gap-8 md:px-5">
                     <div className="md:w-[34%]">
                       <h3 className="font-display text-[26px] font-normal leading-tight text-navy transition-colors group-hover:text-cta-dark">
-                        {t(`Specialties.${key}.name`)}
+                        <Link href="/treatments" className="focus-visible:outline-none">
+                          {t(`Specialties.${key}.name`)}
+                        </Link>
                       </h3>
                     </div>
                     <p className="text-[16px] leading-relaxed text-body md:w-[38%]">
                       {t(`Specialties.${key}.desc`)}
                     </p>
                     <div className="flex items-center justify-between md:w-[28%] md:justify-end md:gap-8">
-                      <span className="font-display text-[19px] font-light text-navy">
-                        {t("TreatmentsPage.fromLabel")} {fromPrice(prices)}
-                      </span>
+                      <Link
+                        href="/consultation"
+                        className="text-[15px] font-semibold text-cta-dark underline decoration-cta decoration-[3px] underline-offset-[6px] transition-colors hover:text-cta"
+                      >
+                        {t("TreatmentsPage.requestQuote")}
+                      </Link>
                       <span className="link-arrow text-[14px] text-muted group-hover:text-cta-dark">
-                        {t("Specialties.allTreatments")}
+                        <Link href="/treatments">{t("Specialties.allTreatments")}</Link>
                         <ArrowRight size={15} aria-hidden />
                       </span>
                     </div>
-                  </Link>
+                  </div>
                 </Reveal>
               );
             })}

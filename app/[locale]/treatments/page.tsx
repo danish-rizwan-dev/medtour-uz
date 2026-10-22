@@ -118,25 +118,13 @@ function TreatmentsContent() {
                 </div>
               </Reveal>
 
-              {/* Prices */}
+              {/* Quote */}
               <Reveal delay={index % 2 === 0 ? 60 : 0}>
                 <div className="tile h-full rounded-2xl p-7">
                   <h3 className="flex items-center gap-2 text-[16px] font-semibold text-navy">
-                    <Tag size={16} className="text-cta" aria-hidden /> {t("indicativePrices")}
+                    <Tag size={16} className="text-cta" aria-hidden /> {t("quoteTitle")}
                   </h3>
-                  <ul className="mt-5 space-y-3">
-                    {(t.raw(`${key}.prices`) as { name: string; range: string }[]).map((r) => (
-                      <li
-                        key={r.name}
-                        className="flex items-center justify-between gap-3 rounded-xl px-3 py-2 transition-colors hover:bg-parchment-subtle"
-                      >
-                        <span className="text-[16px] font-medium text-ink">{r.name}</span>
-                        <span className="whitespace-nowrap font-display text-[17px] font-normal text-navy">
-                          {r.range}
-                        </span>
-                      </li>
-                    ))}
-                  </ul>
+                  <p className="mt-5 text-[16px] leading-relaxed text-body">{t("quoteText")}</p>
                   <Link href="/consultation" className="btn btn-cta mt-7 w-full">
                     {t("requestQuote")} <ArrowRight size={16} aria-hidden />
                   </Link>

@@ -170,7 +170,7 @@
     "q2": "Do I need a visa for treatment?",
     "a2": "Yes, citizens of Uzbekistan need an Indian medical visa. We help obtain an invitation from the hospital and prepare the full document package — this usually takes several working days.",
     "q3": "How much does treatment cost?",
-    "a3": "The cost depends on the diagnosis, the scope of the procedure and the chosen hospital. After reviewing your documents we send a written estimate before travel — you know the price in advance. Indicative price ranges are published on this website.",
+    "a3": "The cost depends on the diagnosis, the scope of the procedure and the chosen hospital, so we don't publish fixed prices. After reviewing your documents we send a written estimate before travel — you know the price in advance. Request a quote to receive a personalised estimate.",
     "q4": "Is support available in Russian and Uzbek?",
     "a4": "Yes. Your coordinator communicates in Russian and Uzbek, and medical interpretation is provided at hospital appointments and procedures.",
     "q5": "How quickly can I travel for treatment?",
@@ -189,12 +189,12 @@
   },
   "TreatmentsPage": {
     "badge": "Treatment specialties",
-    "title": "Treatment in India: specialties and prices",
-    "subtitle": "Five leading specialties of Indian medicine with indicative prices. The exact cost is confirmed after your diagnosis is reviewed.",
-    "priceNote": "Prices are indicative, in US dollars, and depend on the diagnosis, the scope of the procedure, the hospital and the doctor. A precise estimate is prepared after consultation.",
-    "fromLabel": "from",
+    "title": "Treatment in India: specialties",
+    "subtitle": "Five leading specialties of Indian medicine. The exact cost is confirmed after your diagnosis is reviewed — request a quote for a personalised estimate.",
+    "priceNote": "We don't publish fixed prices — every case is different. Send your details and receive a personalised written estimate, usually within 24–72 hours.",
     "popularProcedures": "Popular procedures",
-    "indicativePrices": "Indicative prices (USD)",
+    "quoteTitle": "Prices on request",
+    "quoteText": "We don't publish fixed prices — every case is different. Send your details and receive a personalised written estimate, usually within 24–72 hours.",
     "requestQuote": "Calculate my cost",
     "cardiology": {
       "name": "Cardiology & cardiac surgery",
@@ -446,5 +446,62 @@
     "colBeds": "Beds",
     "badge": "The record",
     "subtitle": "Accreditation, capacity and founding year for each partner institute — verified from public sources."
+  },
+  "Chatbot": {
+    "label": "Open the question assistant",
+    "title": "Question assistant",
+    "subtitle": "Predefined answers, right here",
+    "close": "Close the assistant",
+    "placeholder": "Type your question…",
+    "send": "Send",
+    "typing": "The assistant is typing",
+    "greeting": "Hello! Ask a question below, or pick one of the suggested ones — the common answers come back right here.",
+    "fallback": "I don't have a ready-made answer for that yet. Pick one of the suggested questions, or send your case to a coordinator — a person will reply.",
+    "consult": "Free consultation",
+    "whatsapp": "WhatsApp",
+    "items": [
+      {
+        "id": "price",
+        "q": "How much does treatment cost?",
+        "a": "The cost depends on the diagnosis, the scope of the procedure and the chosen hospital. After reviewing your documents we send a written estimate before travel — you know the price in advance. Indicative price ranges are published on this website.",
+        "k": ["price", "cost", "how much", "expensive", "cheap", "pricing", "budget", "afford"]
+      },
+      {
+        "id": "visa",
+        "q": "Do I need a visa for treatment?",
+        "a": "Yes, citizens of Uzbekistan need an Indian medical visa. We help obtain an invitation from the hospital and prepare the full document package — this usually takes several working days.",
+        "k": ["visa", "documents", "invitation", "passport", "embassy", "permit"]
+      },
+      {
+        "id": "why-india",
+        "q": "Why choose treatment in India?",
+        "a": "India combines high-level medicine — hospitals accredited by JCI and NABH, doctors with international experience — with prices 60–80% lower than Europe, the US and often Turkey. For patients from Uzbekistan, the availability of Russian-speaking support also matters.",
+        "k": ["why india", "india", "quality", "safe", "safety", "accreditation", "jci", "nabh", "europe", "turkey", "abroad"]
+      },
+      {
+        "id": "timing",
+        "q": "How soon can I travel?",
+        "a": "Doctors provide an opinion on documents within 2–3 days. With documents ready, travel is usually possible within 1–2 weeks, including visa processing.",
+        "k": ["how soon", "quickly", "when can", "soon", "timeline", "fast", "wait"]
+      },
+      {
+        "id": "languages",
+        "q": "Is there support in Russian and Uzbek?",
+        "a": "Yes. Your coordinator communicates in Russian and Uzbek, and medical interpretation is provided at hospital appointments and procedures.",
+        "k": ["russian", "uzbek", "language", "languages", "interpreter", "translation", "support"]
+      },
+      {
+        "id": "hospitals",
+        "q": "Which hospitals do you work with?",
+        "a": "We work with the leading institutes of Delhi and Noida — Apollo, Fortis, Max and others, every one JCI or NABH accredited. The partner-hospital list with founding year, capacity and accreditation is on the Hospitals page; the final choice is made once your documents have been reviewed.",
+        "k": ["hospital", "hospitals", "clinic", "clinics", "which hospital", "best hospital", "apollo", "fortis", "max", "aiims"]
+      },
+      {
+        "id": "aftercare",
+        "q": "What happens after I return home?",
+        "a": "You receive your discharge summary, recommendations and a follow-up plan. We stay in touch: online consultations with your treating doctor are arranged after you return to Uzbekistan.",
+        "k": ["after", "follow up", "follow-up", "recovery", "back home", "return", "discharge", "aftercare"]
+      }
+    ]
   }
 }
