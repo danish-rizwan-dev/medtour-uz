@@ -9,13 +9,13 @@ export const SITE = {
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://medtouruz.com",
 
   /** WhatsApp number in international format WITHOUT "+", e.g. "998901234567" */
-  whatsapp: process.env.NEXT_PUBLIC_WHATSAPP || "998900000000",
+  whatsapp: process.env.NEXT_PUBLIC_WHATSAPP || "919667599785",
 
   /** Phone number shown on the site */
-  phoneDisplay: process.env.NEXT_PUBLIC_PHONE_DISPLAY || "+998 90 000 00 00",
+  phoneDisplay: process.env.NEXT_PUBLIC_PHONE_DISPLAY || "+91 96675 99785",
 
   /** Phone number used in tel: links (digits only) */
-  phone: process.env.NEXT_PUBLIC_PHONE || "998900000000",
+  phone: process.env.NEXT_PUBLIC_PHONE || "919667599785",
 
   email: process.env.NEXT_PUBLIC_EMAIL || "info@medtouruz.com",
 } as const;
